@@ -4,7 +4,7 @@
   "description": "Necessary folder structure and dependencies for a project",
   "main": "index.js",
   "author": "Arpit Bharti<arpitbharti73@gmail.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "keywords": [
     "next",
     "react",
@@ -17,7 +17,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier --config ./.prettierrc --write './**/*.{ts,tsx,js,jsx,json,css,html}'"
+    "prettier": "prettier --write './**/*.{ts,tsx,js,jsx,json,css,html}' --config ./.prettierrc --ignore-path ./.gitignore"
   },
   "pre-commit": [
     "prettier"
